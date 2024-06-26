@@ -55,3 +55,67 @@
 .img-logo:hover {
   transform: scale(1.1);
 }
+
+.body {}
+
+.img-card {
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.rest-card {
+  width: 200px;
+  height: 250px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(187, 175, 175, 0.573);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+  margin: 10px 0;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
+.rest-card:hover {
+  transform: scale(1.12);
+}
+
+.bout {
+  display: flex;
+  gap: 20px;
+}
+
+.bout button {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.bout button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.bout button:active {
+  transform: scale(0.9);
+}
+
+.rest-card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
